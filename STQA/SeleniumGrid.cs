@@ -20,7 +20,7 @@ namespace STQA
 
             
             DesiredCapabilities Capabilities = new DesiredCapabilities();
-            Capabilities.SetCapability(CapabilityType.BrowserName, "firefox");
+            Capabilities.SetCapability(CapabilityType.BrowserName, "chrome");
             Capabilities.SetCapability(CapabilityType.Platform, new Platform(PlatformType.Windows));
 
             Driver = new RemoteWebDriver(new Uri("http://192.168.52.129:4444/wd/hub"),Capabilities);

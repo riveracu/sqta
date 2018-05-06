@@ -26,8 +26,8 @@ namespace STQA
             HomePage home = new HomePage(driver);
             home.goToPage();
             AboutPage about = home.goToAboutPage();
-            ResultPage result = about.search("selenium c#");
-            result.clickOnFirstArticle();
+           // ResultPage result = about.search("selenium c#");
+           // result.clickOnFirstArticle();
         }
 
         [TearDown]
